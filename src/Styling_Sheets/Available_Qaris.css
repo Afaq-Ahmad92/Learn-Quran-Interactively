@@ -1,0 +1,196 @@
+.page_upperContainer {
+  display: flex;
+  margin-top: 13vh;
+}
+.upperContainer_left {
+  flex: 0.7;
+  margin-top:4vh;
+  margin-bottom:7vh;
+  margin-left:24vw;
+}
+
+.Search_form {
+  display: flex;
+  width: 100%;
+}
+.search_input {
+  flex: 0.94;
+  padding: 2% 1.7%;
+  font-size: medium;
+  border-right: none;
+  border: 1.75px solid #4cbb17;
+  color: #4cbb17;
+  border-radius: 5px 0px 0px 5px;
+}
+.submit_btn {
+  border-left: none;
+  flex: 0.06;
+  padding: 2% 7%;
+  background-color: #4cbb17;
+  color: white;
+  border: 1.75px solid #4cbb17;
+  border-radius: 0px 5px 5px 0px;
+}
+.submit_btn:hover {
+  cursor: pointer;
+}
+
+.search_input:focus {
+  outline: none;
+}
+
+.upperContainer_right {
+  flex: 0.01;
+  display: flex;
+}
+.page_detail_image {
+  height: 39vh;
+  width: 22vw;
+  margin-top: -7.5vh;
+  margin-left: auto;
+  z-index: -1;
+  animation: upDown 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes upDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+.filterContainer > p {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+}
+.FilterQaris_Option {
+  width: 100%;
+  display: flex;
+  margin-top: 2vh;
+}
+.FilterQaris_Option > button {
+  flex: 1;
+  padding: 1.3% 0%;
+  background-color: white;
+  outline: none;
+  border: 1.5px solid #4cbb17;
+}
+
+.FilterQaris_Option > button:hover {
+  cursor: pointer;
+}
+
+.FitlerBtnActive {
+  background-color: #4cbb17 !important;
+  color: white;
+}
+
+.allQaris {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Qaris__container {
+  margin-bottom: 4vh;
+  height: 400px;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  border-radius: 0%;
+}
+
+.Qaris__container:hover {
+  cursor: pointer;
+}
+
+
+.Qaris__container > .Qaris_Container_lower > h3 {
+  margin-bottom: 20px;
+  color: rgb(53, 52, 52);
+}
+.Qaris__container > .Qaris_Container_lower > p {
+  color: rgb(53, 52, 52);
+  margin-bottom: 20px;
+}
+.Qaris__container > .Qaris_Container_lower > pre {
+  color: rgb(53, 52, 52);
+  margin-bottom: 20px;
+}
+.Qaris_container_upper {
+  display: flex;
+  flex: 0.55;
+  flex-direction: column;
+  background-color: #4cbb17;
+  color: white;
+  padding: 10px 0px;
+
+}
+.Qaris_Container_lower {
+  padding: 5% 2.6%;
+  flex: 0.45;
+}
+
+.Qari_image {
+  width: 85px;
+  height: 85px;
+  margin-left: auto;
+  margin-right: auto;
+  clip-path: circle();
+  margin-bottom: 12px;
+}
+.age_gender {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.detailInput{
+margin: 5vh 0vh;
+margin-bottom: -1vh;
+
+}
+
+.detailInput_field{
+  width: 93%;
+  font-size:15px;
+  height: 80px;
+  outline: none;
+  border: 1px solid #4cbb17;
+  padding: 10px 20px;
+}
+.feeContianer{
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+.fee {
+  color:white;
+  background-color: #4cbb17;
+  max-width: fit-content;
+  border-radius: 5px;
+  margin-right: 3px;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+.Qari_name {
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.resultFound {
+  text-align: center;
+  margin-top: -5vh;
+  margin-bottom: 2vh;
+  color: #4cbb17;
+  font-weight: 600;
+}
+.qariContainer_Link
+{
+  text-decoration: none;
+}

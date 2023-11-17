@@ -1,0 +1,253 @@
+.form_container {
+  height: 83.5vh !important;
+  margin-top: 12vh !important;
+}
+
+.form_body {
+  margin: 1vh 10vw;
+}
+
+.profile_title {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5% 0%;
+  margin-top: 70px !important;
+          flex: 0.6;
+
+  align-items: center;
+}
+.profile_title > h2 {
+  color: #4cbb17;
+  font-size: 2.2rem;
+}
+.profile_title > p {
+  font-size: 1.2rem;
+  margin-top: 2px;
+}
+.form_step_btm {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2vh;
+}
+
+.form_step_left,
+.form_step_right {
+  display: flex;
+  flex-direction: column;
+  flex: 0.45;
+}
+.form_step_right {
+  margin-left: 200px;
+}
+
+.input_label {
+  margin-left: 15px;
+  margin-bottom: 7px;
+}
+.input_field {
+  border: 1px solid #4cbb17;
+  width: 80%;
+  padding: 2% 4%;
+  border-radius: 20px;
+  outline: none;
+  font-size: 1.1rem;
+}
+
+input[type="file"]:hover {
+  cursor: pointer;
+}
+input[type="date"]:hover {
+  cursor: pointer;
+}
+
+.formBtns {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: -6%;
+  left: 1%;
+}
+.formBtn2 {
+  background-color: #4cbb17;
+  border: none;
+  padding: 1.1% 6%;
+  margin-top: 5vh;
+  color: white;
+  font-size: 1.5rem;
+  margin-left: -2vw;
+  border-radius: 30px;
+}
+.formBtn2:hover {
+  cursor: pointer;
+}
+
+.form_step {
+  display: flex;
+  margin-top: 3vh;
+  align-items: center;
+  width: 100%;
+}
+.formBtn {
+  border: none;
+  padding: 2% 8%;
+  border-radius: 0.5vw;
+  background-color: #4cbb17;
+  color: white !important;
+  font-size: 1rem;
+  align-items: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  justify-content: center;
+}
+.form_btn_submit {
+  border: none;
+  padding: 1.7% 6%;
+  border-radius: 10px;
+  background-color: #4cbb17;
+  color: white !important;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2% !important;
+  margin-left: 31vw;
+}
+.gender {
+  font-size: 1.1rem !important;
+}
+.removeImgBtn {
+  background-color: #4cbb17;
+  color: white;
+  padding: 5px 13px;
+  border: none;
+  border-radius: 1vw;
+  margin-top: 10px;
+  margin-bottom: 2%;
+}
+.image_heading {
+  background-color: #4cbb17;
+  color: white;
+  padding: 5px 13px;
+  border: none;
+  border-radius: 2vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  max-width: fit-content;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.image_heading {
+  padding: 5px 15px;
+  max-width: fit-content;
+}
+.form_btn_submit:hover {
+  cursor: pointer;
+}
+
+.removeImgBtn:hover {
+  cursor: pointer;
+}
+.formBtn:hover {
+  cursor: pointer;
+}
+
+.inputImage_container {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+}
+.inputImage {
+  display: none;
+}
+.upload_img {
+  height: 100px;
+  width: 100px;
+  margin-left: 9.5vh;
+}
+.upload_img:hover {
+  cursor: pointer;
+}
+
+.image_show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img_container {
+  border: 4px solid #4cbb17;
+  width: 6vw;
+  height: 6vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 50%;
+}
+.img_container_big {
+  border: 4px solid #4cbb17;
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+}
+.selectedImg {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.errorContainer {
+  width: 100%;
+  text-align: center;
+}
+.error2 {
+  text-align: center;
+  margin-top: 6vh;
+  color: #4cbb17;
+  font-size: 1.3em;
+}
+
+#gender {
+  font-size: 21px !important;
+  margin-left: -2.5vw;
+}
+
+.upload_files_hide {
+  display: none;
+}
+
+.uploadFiles_container {
+  display: flex;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+  justify-content: space-between;
+  margin-right: 3.5vw;
+}
+
+.upload_files {
+  border: 2px solid #4cbb17;
+  background-color: white;
+  outline: none;
+  color: #4cbb17;
+  font-weight: bolder;
+  padding: 15px 40px;
+  border-radius: 30px;
+}
+.previous {
+  background-color: white;
+  border: none;
+  color: #4cbb17;
+  font-weight: bolder;
+}
+.previous:hover {
+cursor: pointer;
+}
+.upload_files:hover {
+  cursor: pointer;
+}
